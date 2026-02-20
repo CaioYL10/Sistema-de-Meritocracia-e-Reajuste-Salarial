@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de Reajuste Salarial TechSoluções</title>
+</head>
+<body>
+    <form name="formulario" method="POST">
+        <h1>Reajuste Salarial TechSoluções</h1>
+        <input type="text" id="nome" placeholder="Nome do Funcionário">
+        <select id="cargos">
+            <option value="selecione">--- Selecione o Cargo ---</option>
+            <option value="aprendiz">👨‍🎓 Aprendiz</option>
+            <option value="analista">👨‍💻 Analista de TI</option>
+            <option value="gerente">👨 Gerente de TI</option>
+            <option value="diretor">🧑‍💼 Diretor de TI</option>
+        </select>
+        <input type="number" id="salario" placeholder="Salário do Funcionário">
+        <input type="number" id="faltas" placeholder="Faltas do Funcionário">
+        <input type="number" id="atrasos" placeholder="Atrasos do Funcionário">
+
+        <button type="button" onclick="inserir()">Inserir Dados</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
