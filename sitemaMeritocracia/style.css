@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-135deg, #1e3c72, #2a5298, #4facfe);
+    color: white;
+    border-radius: 0px 30px 30px 0px;
+}
+
+form input, button, select {
+    width: 80%;
+    height: 8%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+form button {
+    cursor: pointer;
+}
+
+form input, select {
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+
+
+#resultado {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    font-size: 22px;
+}
